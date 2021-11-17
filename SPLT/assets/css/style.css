@@ -8,7 +8,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: rgba(166, 119, 68, 1);
+	color: #fff;
 }
 
 a:hover {
@@ -453,7 +453,6 @@ section {
 .section-title {
 	text-align: center;
 	padding-bottom: 30px;
-
 }
 .section-title h2 {
 	font-size: 13px;
@@ -489,8 +488,6 @@ section {
 	padding-bottom: 30px;
 	background-color: rgba(63, 110, 97, 1);
 	color: #fff;
-
-
 }
 .section-title-contact h2 {
 	font-size: 13px;
@@ -590,6 +587,12 @@ section {
 	background: url('../img/spl&t_2ndthinning.jpeg') center center no-repeat;
 	background-size: cover;
 	min-height: 400px;
+}
+
+.pricing .about .video-box-syt {
+	background: url('../img/spl&t_2ndthinning.jpeg') center center no-repeat;
+	background-size: cover;
+	min-height: 200px;
 }
 .about .play-btn {
 	width: 94px;
@@ -786,7 +789,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Cta
+# Quotes
 --------------------------------------------------------------*/
 .quotes {
 	background-color: #572d00;
@@ -810,10 +813,86 @@ section {
 	padding: 25px 300px;
 	transition: 0.5s;
 	margin-top: 10px;
-	border: 2px solid #fff;
+	border: 1px solid #fff;
 	color: #fff;
 }
 
+/*--------------------------------------------------------------
+# Cta-syt
+--------------------------------------------------------------*/
+.cta-syt {
+	background:linear-gradient(to bottom, rgba(218, 218, 218, 0.52), rgba(34, 34, 34, 0.73)), url('../img/woods.PNG') fixed center center;
+	background-size: cover;
+	padding: 160px 0;
+    opacity:0.8;
+}
+.cta-syt h3 {
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+}
+.cta-syt p {
+	color: #fff;
+}
+.cta-syt .cta-syt-btn {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 28px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin-top: 10px;
+	border: 2px solid #fff;
+	color: #fff;
+}
+.cta-syt .cta-syt-btn:hover {
+	background: rgba(166, 119, 68, 1);
+	border: 1px solid rgba(166, 119, 68, 1);
+}
+
+.syt-quotes {
+	box-sizing: content-box;
+	width: 100%;
+	border: solid #fff 1px;
+	padding: 100px 0;
+}
+.syt-quotes-2 {
+	box-sizing: content-box;
+	width: 100%;
+}
+
+
+
+/*--------------------------------------------------------------
+# Quotes
+--------------------------------------------------------------*/
+.quotes-syt {
+	background-color: #fff;
+	background-size: cover;
+	padding: 25px 0;
+}
+.quotes-syt h3 {
+	color: rgba(166, 119, 68, 1);
+	font-size: 28px;
+	font-weight: 700;
+}
+.quotes-syt p {
+	color: rgba(166, 119, 68, 1);
+}
+.quotes-syt .quotes-syt-btn {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 25px 300px;
+	transition: 0.5s;
+	margin-top: 10px;
+	border: 1px solid rgba(166, 119, 68, 1);
+	color: rgba(166, 119, 68, 1);
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -877,6 +956,10 @@ section {
 	border-color: rgba(166,119,68,1);
 } */
 
+
+.resize {
+    height: 49px;
+}
 /*--------------------------------------------------------------
 # Cards
 --------------------------------------------------------------*/
@@ -1188,7 +1271,7 @@ section {
 
 .listing-box {
 	background: #fff;
-	padding: 40px ;
+	padding: 40px;
 	border: 1px solid #343433;
 }
 
@@ -1221,7 +1304,6 @@ section {
 	background: #d4b78d;
 	width: 100%;
 } */
-
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1317,10 +1399,10 @@ section {
 	padding: 20px;
 	background: #f9f9f9;
 	text-align: center;
-	border-radius: 8px;
 	position: relative;
 	overflow: hidden;
 	border: 1px solid #f9f9f9;
+	margin: 1rem;
 }
 .pricing .box h3 {
 	font-weight: 400;
@@ -1623,7 +1705,7 @@ section {
 	min-height: 40px;
 }
 .breadcrumbs h2 {
-	font-size: 24px;
+	font-size: 40px;
 	padding-top: 4px;
 	font-weight: 500;
 	color: #fff;
@@ -1796,6 +1878,10 @@ section {
 	background: rgb(194, 139, 79);
 	color: #fff;
 	text-decoration: none;
+}
+
+.footer-link{
+	color: #fff;
 }
 
 .contact-simple {
@@ -2000,5 +2086,5 @@ section {
 }
 
 .testimonials h2 {
-	font-size: 30px;
+	font-size: 40px;
 }
