@@ -72,6 +72,7 @@ h6 {
 	padding: 10px 0;
 	font-size: 14px;
 	color: white;
+	height: auto;
 }
 #topbar .contact-info i {
 	font-style: normal;
@@ -139,6 +140,28 @@ h6 {
 /**
 * Desktop Navigation 
 */
+.fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	background-color: #572d00;
+	padding-top: 10px;
+}
+
+@media (min-width: 991px) {
+	.fixed-nav-bar {
+		display: none;
+	}
+}
+@media (min-width: 991px) {
+	.topbar {
+		display: none;
+	}
+}
+
 .navbar {
 	padding: 0;
 }
@@ -437,7 +460,7 @@ h6 {
 		font-size: 28px;
 		line-height: 36px;
 	}
-	
+
 	#hero h2 {
 		font-size: 18px;
 		line-height: 24px;
@@ -899,6 +922,76 @@ section {
 	border: 1px solid rgba(166, 119, 68, 1);
 	color: rgba(166, 119, 68, 1);
 }
+
+@media (max-width: 991px) {
+	.quotes .quotes-btn {
+		padding: 25px 91px;
+	}
+}
+
+@media (max-width: 991px) {
+	.quotes-syt .quotes-syt-btn {
+		padding: 25px 91px;
+	}
+}
+
+.cta-topbar {
+	background-size: cover;
+	padding: 60px 0;
+}
+.cta-topbar h3 {
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+}
+.cta-topbar p {
+	color: #fff;
+}
+.cta-topbar .cta-topbar-btn {
+	font-family: 'Spectral', serif;
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 28px;
+	transition: 0.5s;
+	margin-top: 10px;
+	color: #fff;
+}
+.cta-topbar .cta-topbar-btn:hover {
+	background: rgba(166, 119, 68, 1);
+	border: 2px solid rgba(166, 119, 68, 1);
+}
+
+.quotes-topbar {
+	background-color: #572d00;
+	background-size: cover;
+	padding: 25px 0;
+}
+.quotes-topbar h3 {
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+}
+.quotes-topbar p {
+	color: #fff;
+}
+.quotes-topbar .quotes-topbar-btn {
+	font-family: 'Spectral', serif;
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 25px 300px;
+	transition: 0.5s;
+	color: #fff;
+}
+
+@media (max-width: 991px) {
+	.quotes-topbar .quotes-topbar-btn {
+		padding: 2px;
+	}
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -908,7 +1001,9 @@ section {
 	padding: 35px 20px;
 	transition: all ease-in-out 0.3s;
 	background: #fff;
+	width: 100%;
 }
+
 .services .icon-box .icon {
 	margin: 0 auto;
 	width: 64px;
@@ -1883,6 +1978,14 @@ section {
 	background: rgb(194, 139, 79);
 	color: #fff;
 	text-decoration: none;
+}
+
+@media (max-width: 991px) {
+	#footer .footer-top .footer-links {
+		padding-left: 0;
+		padding-top: 53px;
+		margin-bottom: 0px;
+	}
 }
 
 .footer-link {
