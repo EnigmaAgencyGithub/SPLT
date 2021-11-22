@@ -168,6 +168,32 @@ h6 {
 	}
 }
 
+@media (max-width: 991px) {
+	.footer-desktop {
+		display: none;
+	}
+}
+
+@media (min-width: 991px) {
+	.footer-mobile {
+		display: block;
+	}
+}
+
+@media (min-width: 991px) {
+	.footer-desktop {
+		display: block;
+	}
+}
+
+@media (min-width: 991px) {
+	.footer-mobile {
+		display: none;
+	}
+}
+
+
+
 .navbar {
 	padding: 0;
 }
@@ -1890,7 +1916,6 @@ section {
 }
 #footer .footer-top .footer-links {
 	margin-bottom: 30px;
-	padding-left: 74px;
 }
 #footer .footer-top .footer-links ul {
 	list-style: none;
@@ -1900,7 +1925,7 @@ section {
 #footer .footer-top .footer-links span {
 	padding-right: 2px;
 	color: white;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 1;
 }
 #footer .footer-top .footer-links ul li {
