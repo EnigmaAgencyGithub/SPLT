@@ -59,7 +59,7 @@ h6 {
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
-@media screen and (max-width: 991px) {
+@media (max-width: 991px) {
 	[data-aos-delay] {
 		transition-delay: 0 !important;
 	}
