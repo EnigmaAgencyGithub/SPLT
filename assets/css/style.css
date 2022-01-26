@@ -2260,7 +2260,7 @@ section {
 
 .buy-timber {
 	padding: 20px 0;
-	background: url('/assets/img/testimonials.jpeg') no-repeat center center;
+	background: url('../img/testimonials.jpeg') no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
