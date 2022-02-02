@@ -1140,7 +1140,7 @@ section {
 .featured-listings {
 	font-family: 'Spectral', serif;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 30px;
 	letter-spacing: 1px;
 	display: inline-block;
 	padding: 15px 175px;
@@ -2263,15 +2263,15 @@ section {
 
 .buy-timber-1 {
 	padding: 20px 0;
-	background: url('../img/The\ Timber\ Buying\ Process\ \(1\).jpg') no-repeat center
-		center;
+	background: url('../img/The\ Timber\ Buying\ Process\ \(1\).jpg') no-repeat
+		center center;
 	background-size: cover;
 	text-align: center;
 }
 
 .buy-timber-2 {
 	padding: 20px 0;
-	background: url('../img/we-buy-timber.jpg') no-repeat bottom center;
+	background: url('../img/we-buy-timber.jpg') no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
@@ -2317,6 +2317,28 @@ section {
 
 .card-img-top {
 	width: 100%;
-	height: 325PX;
+	height: 325px;
 	object-fit: cover;
+}
+
+.card-img-top-1 {
+	width: 637px;
+	height: 325px;
+	object-fit: cover;
+}
+
+@media (max-width: 1400px) {
+	.card-img-top-1 {
+		width: 544px;
+		height: 325px;
+		object-fit: cover;
+	}
+}
+
+@media (max-width: 1200px) {
+	.card-img-top-1 {
+		width: 100%;
+		height: 325px;
+		object-fit: cover;
+	}
 }
