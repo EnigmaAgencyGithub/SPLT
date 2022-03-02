@@ -2342,3 +2342,53 @@ section {
 		object-fit: cover;
 	}
 }
+
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+	width: 200px; /* note i used vw not px for better responsive */
+	height: 200px;
+	font-size: 22px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	text-align: center;
+	display: flex;
+	color: white;
+	box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+		0.3em 0.3em 1em rgba(0, 0, 0, 0.1);
+}
+
+.card-text-career {
+	color: white;
+}
+
+@media (max-width: 991px) {
+	.custom-circle-image {
+		width: 50vw; /* note i used vw not px for better responsive */
+		height: 50vw;
+		font-size: 22px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 100%;
+		text-align: center;
+		display: flex;
+		color: white;
+		margin-bottom: 10px;
+	}
+}
+
+.my-button {
+	display: inline-block;
+	margin: 5px; /* space between buttons */
+	background: #3f6e61; /* text color */
+	color: white; /* text color */
+	font-size: 1.5em;
+	padding: 8px 16px; /* space around text */
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.my-button:hover {
+	background: #666;
+	color: #c1e1e0;
+}
