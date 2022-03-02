@@ -2388,7 +2388,3 @@ section {
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
 }
-.my-button:hover {
-	background: #666;
-	color: #c1e1e0;
-}
