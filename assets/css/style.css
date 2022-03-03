@@ -2327,6 +2327,13 @@ section {
 	object-fit: cover;
 }
 
+.card-img-top-2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
 @media (max-width: 1400px) {
 	.card-img-top-1 {
 		width: 544px;
@@ -2379,12 +2386,46 @@ section {
 
 .my-button {
 	display: inline-block;
-	margin: 5px; /* space between buttons */
-	background: #3f6e61; /* text color */
+	margin: 22px; /* space between buttons */
+	background: white; /* text color */
+	color: #3f6e61; /* text color */
+	font-size: 1.5em;
+	padding: 8px 16px; /* space around text */
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.my-button-1 {
+	display: inline-block;
 	color: white; /* text color */
 	font-size: 1.5em;
 	padding: 8px 16px; /* space around text */
 	-moz-transition: all 0.2s;
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
+}
+
+.faq-background {
+	background-color: #a67744;
+}
+
+.edica-about-vision .vision-title {
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 1.04;
+	margin-bottom: 20px;
+	color: white;
+	  text-decoration: underline;
+}
+
+.edica-about-vision .vision-text {
+	font-size: 18px;
+	line-height: 1.56;
+	color: white;
+}
+
+.edica-about-vision{
+	background-color: #a67744;
+	padding: 4rem;
 }
