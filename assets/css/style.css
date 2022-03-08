@@ -2298,7 +2298,8 @@ section {
 	font-size: 17px;
 	letter-spacing: 1px;
 	display: inline-block;
-	padding: 8px 95px;
+	padding: 8px 26px;
+	border-radius: 25px;
 	transition: 0.5s;
 	margin: 10px;
 	color: #fff;
