@@ -419,13 +419,14 @@ h6 {
 #hero {
 	width: 100%;
 	height: 70vh;
-	background: url('../img/hero.JPG') top center no-repeat;
+	background: url('../images/hero.jpg') top center no-repeat;
 	background-size: cover;
 	position: relative;
 }
+
 #hero:before {
 	content: '';
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.4);
 	position: absolute;
 	bottom: 0;
 	top: 0;
@@ -574,16 +575,16 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .box-heading h4 {
-	font-size: 13px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	font-weight: 700;
-	padding: 8px 20px;
+	padding: 60px 40px;
 	margin: 0 0 15px 0;
-	background: #bebebe;
-	color: rgba(166, 119, 68, 1);
+	background: #4a6c60;
+	color: white;
 	display: inline-block;
 	text-transform: uppercase;
-	border-radius: 50px;
+	border-radius: 50vh;
 }
 .about .box-heading h3 {
 	font-size: 22px;
@@ -947,6 +948,7 @@ section {
 	transition: 0.5s;
 	margin-top: 10px;
 	border: 1px solid rgba(166, 119, 68, 1);
+	border-radius: 25px;
 	color: rgba(166, 119, 68, 1);
 }
 
@@ -2255,23 +2257,34 @@ section {
 }
 
 .buy-timber {
-	padding: 20px 0;
-	background: url('../img/testimonials.JPG') no-repeat center bottom;
+	padding: 200px 0;
+	background: url('../images/Testimonials.jpg') no-repeat center bottom, rgba(76, 175, 80, 0.3);
 	background-size: cover;
 	text-align: center;
+}
+
+.buy-timber:before {
+	content: '';
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 .buy-timber-1 {
-	padding: 20px 0;
-	background: url('../img/The\ Timber\ Buying\ Process\ \(1\).jpg') no-repeat
-		center center;
+	padding: 200px 0;
+	background: url('../images/The-Timber-Buying-Process.jpg') no-repeat center
+		center;
 	background-size: cover;
 	text-align: center;
+	
 }
 
 .buy-timber-2 {
-	padding: 20px 0;
-	background: url('../img/we-buy-timber.jpg') no-repeat center center;
+	padding: 200px 0;
+	background: url('../images/We-Buy-Timber.jpg') no-repeat center bottom;
 	background-size: cover;
 	text-align: center;
 }
@@ -2279,8 +2292,8 @@ section {
 .buy-timber-header {
 	font-size: 40px;
 	font-weight: 700;
-	margin-bottom: 30px;
-	padding-bottom: 10px;
+	margin-top: 30px;
+
 	text-align: center;
 	color: #fff;
 }
@@ -2431,4 +2444,591 @@ section {
 .edica-about-vision {
 	background-color: #a67744;
 	padding: 4rem;
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+	width: 100%;
+	height: 70vh;
+	background: url('../images/hero.jpg') top center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#hero:before {
+	content: '';
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#hero .hero-container {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 15px;
+}
+#hero h1 {
+	margin: 0 0 10px 0;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 56px;
+	color: #fff;
+}
+#hero h2 {
+	color: #eee;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+#hero .btn-get-started {
+	font-family: 'Spectral', serif;
+	font-weight: 500;
+	font-size: 17px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 95px;
+	transition: 0.5s;
+	margin: 10px;
+	border: 2px solid #fff;
+	color: #4a6c60;
+	background: #fff;
+}
+#hero .btn-get-started:hover {
+	background: #4a6c60;
+	color: #fff;
+}
+@media (min-width: 1024px) {
+	#hero {
+		/* background-attachment: fixed; */
+	}
+}
+@media (max-width: 768px) {
+	#hero {
+		height: 50vh;
+	}
+	#hero h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	#hero h2 {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+	width: 100%;
+	height: 70vh;
+	background: url('../images/hero.jpg') top center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#hero:before {
+	content: '';
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#hero .hero-container {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 15px;
+}
+#hero h1 {
+	margin: 0 0 10px 0;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 56px;
+	color: #fff;
+}
+#hero h2 {
+	color: #eee;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+#hero .btn-get-started {
+	font-family: 'Spectral', serif;
+	font-weight: 500;
+	font-size: 17px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 95px;
+	transition: 0.5s;
+	margin: 10px;
+	border: 2px solid #fff;
+	color: #4a6c60;
+	background: #fff;
+}
+#hero .btn-get-started:hover {
+	background: #4a6c60;
+	color: #fff;
+}
+@media (min-width: 1024px) {
+	#hero {
+		/* background-attachment: fixed; */
+	}
+}
+@media (max-width: 768px) {
+	#hero {
+		height: 50vh;
+	}
+	#hero h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	#hero h2 {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero-testimonials {
+	width: 100%;
+	height: 40vh;
+	background: url('../images/Testimonials.jpg') top center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#hero-testimonials:before {
+	content: '';
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#hero-testimonials .hero-container {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 15px;
+}
+#hero-testimonials h1 {
+	margin: 0 0 10px 0;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 56px;
+	color: #fff;
+}
+#hero-testimonials h2 {
+	color: #eee;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+#hero-testimonials .btn-get-started {
+	font-family: 'Spectral', serif;
+	font-weight: 500;
+	font-size: 17px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 95px;
+	transition: 0.5s;
+	margin: 10px;
+	border: 2px solid #fff;
+	color: #4a6c60;
+	background: #fff;
+}
+#hero-testimonials .btn-get-started:hover {
+	background: #4a6c60;
+	color: #fff;
+}
+@media (min-width: 1024px) {
+	#hero-testimonials {
+		/* background-attachment: fixed; */
+	}
+}
+@media (max-width: 768px) {
+	#hero-testimonials {
+		height: 50vh;
+	}
+	#hero-testimonials h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	#hero-testimonials h2 {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero-we-buy-timber {
+	width: 100%;
+	height: 40vh;
+	background: url('../images/We-Buy-Timber.jpg') center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#hero-we-buy-timber:before {
+	content: '';
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#hero-we-buy-timber .hero-container {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 15px;
+}
+#hero-we-buy-timber h1 {
+	margin: 0 0 10px 0;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 56px;
+	color: #fff;
+}
+#hero-we-buy-timber h2 {
+	color: #eee;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+#hero-we-buy-timber .btn-get-started {
+	font-family: 'Spectral', serif;
+	font-weight: 500;
+	font-size: 17px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 95px;
+	transition: 0.5s;
+	margin: 10px;
+	border: 2px solid #fff;
+	color: #4a6c60;
+	background: #fff;
+}
+#hero-we-buy-timber .btn-get-started:hover {
+	background: #4a6c60;
+	color: #fff;
+}
+@media (min-width: 1024px) {
+	#hero-we-buy-timber {
+		/* background-attachment: fixed; */
+	}
+}
+@media (max-width: 768px) {
+	#hero-we-buy-timber {
+		height: 50vh;
+	}
+	#hero-we-buy-timber h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	#hero-we-buy-timber h2 {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero-the-timber-buying-process {
+	width: 100%;
+	height: 40vh;
+	background: url('../images/The-Timber-Buying-Process.jpg') top center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#hero-the-timber-buying-process:before {
+	content: '';
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#hero-the-timber-buying-process .hero-container {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 15px;
+}
+#hero-the-timber-buying-process h1 {
+	margin: 0 0 10px 0;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 56px;
+	color: #fff;
+}
+#hero-the-timber-buying-process h2 {
+	color: #eee;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+#hero-the-timber-buying-process .btn-get-started {
+	font-family: 'Spectral', serif;
+	font-weight: 500;
+	font-size: 17px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 95px;
+	transition: 0.5s;
+	margin: 10px;
+	border: 2px solid #fff;
+	color: #4a6c60;
+	background: #fff;
+}
+#hero-the-timber-buying-process .btn-get-started:hover {
+	background: #4a6c60;
+	color: #fff;
+}
+@media (min-width: 1024px) {
+	#hero-the-timber-buying-process {
+		/* background-attachment: fixed; */
+	}
+}
+@media (max-width: 768px) {
+	#hero-the-timber-buying-process {
+		height: 50vh;
+	}
+	#hero-the-timber-buying-process h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	#hero-the-timber-buying-process h2 {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+	width: 100%;
+	height: 70vh;
+	background: url('../images/hero.jpg') top center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#hero:before {
+	content: '';
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#hero .hero-container {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 15px;
+}
+#hero h1 {
+	margin: 0 0 10px 0;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 56px;
+	color: #fff;
+}
+#hero h2 {
+	color: #eee;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+#hero .btn-get-started {
+	font-family: 'Spectral', serif;
+	font-weight: 500;
+	font-size: 17px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 95px;
+	transition: 0.5s;
+	margin: 10px;
+	border: 2px solid #fff;
+	color: #4a6c60;
+	background: #fff;
+}
+#hero .btn-get-started:hover {
+	background: #4a6c60;
+	color: #fff;
+}
+@media (min-width: 1024px) {
+	#hero {
+		/* background-attachment: fixed; */
+	}
+}
+@media (max-width: 768px) {
+	#hero {
+		height: 50vh;
+	}
+	#hero h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	#hero h2 {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+	width: 100%;
+	height: 70vh;
+	background: url('../images/hero.jpg') top center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#hero:before {
+	content: '';
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#hero .hero-container {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 15px;
+}
+#hero h1 {
+	margin: 0 0 10px 0;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 56px;
+	color: #fff;
+}
+#hero h2 {
+	color: #eee;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+#hero .btn-get-started {
+	font-family: 'Spectral', serif;
+	font-weight: 500;
+	font-size: 17px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 95px;
+	transition: 0.5s;
+	margin: 10px;
+	border: 2px solid #fff;
+	color: #4a6c60;
+	background: #fff;
+}
+#hero .btn-get-started:hover {
+	background: #4a6c60;
+	color: #fff;
+}
+@media (min-width: 1024px) {
+	#hero {
+		/* background-attachment: fixed; */
+	}
+}
+@media (max-width: 768px) {
+	#hero {
+		height: 50vh;
+	}
+	#hero h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	#hero h2 {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
 }
