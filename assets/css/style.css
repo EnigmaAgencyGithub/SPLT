@@ -1145,12 +1145,13 @@ section {
 	font-size: 30px;
 	letter-spacing: 1px;
 	display: inline-block;
-	padding: 15px 175px;
+	padding: 15px;
 	transition: 0.5s;
 	margin: 10px;
 	border-bottom: 1px solid white;
 	color: #fff;
 	margin-bottom: 35px;
+	text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -2258,7 +2259,8 @@ section {
 
 .buy-timber {
 	padding: 200px 0;
-	background: url('../images/Testimonials.jpg') no-repeat center bottom, rgba(76, 175, 80, 0.3);
+	background: url('../images/Testimonials.jpg') no-repeat center bottom,
+		rgba(76, 175, 80, 0.3);
 	background-size: cover;
 	text-align: center;
 }
@@ -2279,7 +2281,6 @@ section {
 		center;
 	background-size: cover;
 	text-align: center;
-	
 }
 
 .buy-timber-2 {
@@ -2447,7 +2448,6 @@ section {
 	padding: 4rem;
 }
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -2613,7 +2613,6 @@ section {
 		margin-bottom: 30px;
 	}
 }
-
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -2698,7 +2697,6 @@ section {
 	}
 }
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -2778,14 +2776,14 @@ section {
 	}
 }
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero-the-timber-buying-process {
 	width: 100%;
 	height: 40vh;
-	background: url('../images/The-Timber-Buying-Process.jpg') top center no-repeat;
+	background: url('../images/The-Timber-Buying-Process.jpg') top center
+		no-repeat;
 	background-size: cover;
 	position: relative;
 }
@@ -2856,4 +2854,13 @@ section {
 		line-height: 24px;
 		margin-bottom: 30px;
 	}
+}
+
+.loader {
+	border: 16px solid #f3f3f3; /* Light grey */
+	border-top: 16px solid #9f785a; /* Blue */
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
 }
