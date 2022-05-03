@@ -156,41 +156,6 @@ h6 {
 		display: block;
 	}
 }
-/* @media (min-width: 991px) {
-	.navbar {
-		display: block;
-	}
-} */
-
-/* @media (max-width: 991px) {
-	.navbar {
-		display: block;
-	}
-} */
-
-/* @media (max-width: 991px) {
-	.footer-desktop {
-		display: none;
-	}
-} */
-
-/* @media (min-width: 991px) {
-	.footer-mobile {
-		display: block;
-	}
-} */
-
-/* @media (min-width: 991px) {
-	.footer-desktop {
-		display: block;
-	}
-} */
-
-/* @media (min-width: 991px) {
-	.footer-mobile {
-		display: none;
-	}
-} */
 
 .navbar {
 	padding: 0;
@@ -326,8 +291,8 @@ h6 {
 }
 
 .mobile-nav-toggle {
-	color: #4a6c60;
-	font-size: 28px;
+	color: #a67744;
+	font-size: 45px;
 	cursor: pointer;
 	display: none;
 	line-height: 0;
@@ -1636,6 +1601,7 @@ section {
 }
 .faq .section-title h2 {
 	color: #4a6c60;
+	/* rgba(166, 119, 68, 1) */
 	font-size: calc(1rem + 0.9vw);
 }
 .faq .faq-list {
@@ -1650,7 +1616,7 @@ section {
 }
 .faq .faq-list li {
 	padding: 20px;
-	background: #4a6c60;
+	background: rgba(166, 119, 68, 1);
 	border-radius: 4px;
 	position: relative;
 }
@@ -1664,6 +1630,7 @@ section {
 	padding: 0 30px;
 	outline: none;
 	cursor: pointer;
+	color: #4a6c60;
 }
 .faq .faq-list .icon-help {
 	position: absolute;
@@ -1691,7 +1658,7 @@ section {
 	color: #fff;
 }
 .faq .faq-list a.collapsed:hover {
-	color: rgba(166, 119, 68, 1);
+	color: #4a6c60;
 }
 .faq .faq-list a.collapsed .icon-show {
 	display: inline-block;
@@ -1705,6 +1672,82 @@ section {
 	}
 }
 
+/*--------------------------------------------------------------
+# F.A.Q
+--------------------------------------------------------------*/
+.vocab {
+	background: #fff;
+}
+.vocab .section-title h2 {
+	color: #4a6c60;
+	font-size: calc(1rem + 0.9vw);
+}
+.vocab .vocab-list {
+	padding: 0 100px;
+}
+.vocab .vocab-list ul {
+	padding: 0;
+	list-style: none;
+}
+.vocab .vocab-list li + li {
+	margin-top: 15px;
+}
+.vocab .vocab-list li {
+	padding: 20px;
+	background: #4a6c60;
+	border-radius: 4px;
+	position: relative;
+}
+.vocab .vocab-list a {
+	display: block;
+	position: relative;
+	font-family: 'Spectral', serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	padding: 0 30px;
+	outline: none;
+	cursor: pointer;
+}
+.vocab .vocab-list .icon-help {
+	position: absolute;
+	right: 0;
+	left: 20px;
+	size: 10px;
+	color: #fff;
+}
+.vocab .vocab-list .icon-show,
+.vocab .vocab-list .icon-close {
+	font-size: 24px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.vocab .vocab-list p {
+	margin-bottom: 0;
+	padding: 10px 0 0 0;
+	color: #fff;
+}
+.vocab .vocab-list .icon-show {
+	display: none;
+}
+.vocab .vocab-list a.collapsed {
+	color: #fff;
+}
+.vocab .vocab-list a.collapsed:hover {
+	color: rgba(166, 119, 68, 1);
+}
+.vocab .vocab-list a.collapsed .icon-show {
+	display: inline-block;
+}
+.vocab .vocab-list a.collapsed .icon-close {
+	display: none;
+}
+@media (max-width: 1200px) {
+	.vocab .vocab-list {
+		padding: 0;
+	}
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -2433,7 +2476,9 @@ section {
 	font-weight: 700;
 	line-height: 1.04;
 	margin-bottom: 20px;
-	color: white;
+	color: #a67744;
+	background-color: #fff;
+	padding: 20px;
 }
 
 .edica-about-vision .vision-text {
@@ -2445,6 +2490,11 @@ section {
 .edica-about-vision {
 	background-color: #a67744;
 	padding: 4rem;
+}
+
+.edica-about-vision img {
+	width: 25%;
+	height: auto;
 }
 
 /*--------------------------------------------------------------

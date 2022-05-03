@@ -87,10 +87,10 @@
 	/**
 	 * Mobile nav toggle
 	 */
-	on('click', '.mobile-nav-toggle', function (e) {
+
+	on('click', '.navbar', function (e) {
 		select('#navbar').classList.toggle('navbar-mobile');
-		this.classList.toggle('bi-list');
-		this.classList.toggle('bi-x');
+		select('.mobile-nav-toggle').classList.toggle('bi-x');
 	});
 
 	/**
