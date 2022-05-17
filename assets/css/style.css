@@ -1365,7 +1365,7 @@ section {
 	font-weight: 700;
 	font-size: 18px;
 	color: #fff;
-	background: rgba(63, 110, 97, 1);
+	background: rgb(207, 30, 30);
 	margin: 15px;
 }
 
@@ -1630,7 +1630,7 @@ section {
 	padding: 0 30px;
 	outline: none;
 	cursor: pointer;
-	color: #4a6c60;
+	color: #fff;
 }
 .faq .faq-list .icon-help {
 	position: absolute;
@@ -1658,7 +1658,7 @@ section {
 	color: #fff;
 }
 .faq .faq-list a.collapsed:hover {
-	color: #4a6c60;
+	color: #fff;
 }
 .faq .faq-list a.collapsed .icon-show {
 	display: inline-block;
@@ -1708,6 +1708,7 @@ section {
 	padding: 0 30px;
 	outline: none;
 	cursor: pointer;
+	color: #fff;
 }
 .vocab .vocab-list .icon-help {
 	position: absolute;
@@ -1722,6 +1723,7 @@ section {
 	position: absolute;
 	right: 0;
 	top: 0;
+	
 }
 .vocab .vocab-list p {
 	margin-bottom: 0;
@@ -1735,7 +1737,7 @@ section {
 	color: #fff;
 }
 .vocab .vocab-list a.collapsed:hover {
-	color: rgba(166, 119, 68, 1);
+	color: #fff;
 }
 .vocab .vocab-list a.collapsed .icon-show {
 	display: inline-block;
